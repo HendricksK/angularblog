@@ -5,7 +5,9 @@
     <link rel="stylesheet" src="../angular/assets/css/kickstart.min.css"></link>
   </head>
   <body ng-app>
-    <iframe src="../angularblog/web/views/1.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" >
-    </iframe>
+    <p>This is your first angular expression: {{ 1 + 2 }}</p>
+
+    Enter your name: <input type="text" ng-model="name"></input>
+    <p>Hello {{name}}!</p>
   </body>
 </html>
