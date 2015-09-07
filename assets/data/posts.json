@@ -1,16 +1,16 @@
 {
 	"1":{
-		"href":"/angularblog/web/views/1.php",
+		"href":"/angularblog/web/views/post.php",
 		"img":"/angularblog/assets/img/tumblr_m8b56uYUND1rzx9tdo1_1280.jpg"
 	},
 
 	"2":{
-		"href":"/angularblog/web/views/1.php",
+		"href":"/angularblog/web/views/post.php",
 		"img":"/angularblog/assets/img/tumblr_m8b56uYUND1rzx9tdo1_1280.jpg"
 	},
 
 	"3":{
-		"href":"/angularblog/web/views/1.php",
+		"href":"/angularblog/web/views/post.php",
 		"img":"/angularblog/assets/img/tumblr_m8b56uYUND1rzx9tdo1_1280.jpg"
 	}	
 }
