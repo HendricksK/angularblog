@@ -10,7 +10,8 @@ a{
 
 .post-container{
 	width: 50%;
-	margin-left: 25%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .post-container a img{
@@ -21,9 +22,15 @@ a{
 
 .container{
 	width: 50%;
-	margin-left: 25%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.container img{
-	width:100%;
+img{
+	width: 100%;
 }
+
+.navbar{
+	height: 4%;
+}
+

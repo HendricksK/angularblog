@@ -1,0 +1,36 @@
+/*
+Error: Invalid CSS after "$": expected identifier, was "(~) git clone g..."
+        on line 1 of site.scss
+
+1: $(~) git clone git@github.com:adamjgrant/kickstart.git --depth 1
+
+Backtrace:
+site.scss:1
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/scss/parser.rb:1167:in `expected'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/scss/parser.rb:604:in `variable'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:328:in `block in watch'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.1/lib/listen/listener.rb:305:in `call'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.1/lib/listen/listener.rb:305:in `_process_changes'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.1/lib/listen/listener.rb:269:in `block in _wait_for_changes'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.1/lib/listen/listener.rb:252:in `loop'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.1/lib/listen/listener.rb:252:in `_wait_for_changes'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.1/lib/listen/listener.rb:341:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$\": expected identifier, was \"(~) git clone g...\"\A         on line 1 of site.scss\A \A 1: $(~) git clone git@github.com:adamjgrant/kickstart.git --depth 1"; }
