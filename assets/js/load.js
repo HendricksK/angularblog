@@ -4,5 +4,8 @@ head.load("/angularblog/assets/js/angular.min.js");
 head.load("/angularblog/assets/js/jquery-2.1.3.js");
 head.load("/angularblog/assets/js/bootstrap.min.js");
 head.load("/angularblog/web/app/app.js");
-
+head.load("/angularblog/assets/plugins/Slidebars/dist/slidebars.min.js");
+head.load("/angularblog/assets/plugins/Slidebars/dist/slidebars.css");
+head.load("/angularblog/assets/js/page.js");
+      
 
